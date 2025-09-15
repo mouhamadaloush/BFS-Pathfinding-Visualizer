@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BFS Pathfinding Visualizer</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>BFS Pathfinding Visualizer</h1>
+        <div class="names">
+          <h2>Student 1: Mohammed Samer Aloush</h2>
+          <h2>Student 2: Mohammed Faisal Shaqouqa</h2>
+        </div>
+      </div>
+      <div id="controls">
+        <button id="addNode">Add Node</button>
+        <button id="connectNodes">Connect Nodes</button>
+        <button id="setStart">Set Start</button>
+        <button id="setEnd">Set End</button>
+        <button id="setObstacle">Set Obstacle</button>
+        <button id="startSearch">Start BFS</button>
+        <button id="clear">Clear</button>
+      </div>
+      <div id="graph"></div>
+      <div id="pathLength">Path Length: <span id="length">0</span></div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
